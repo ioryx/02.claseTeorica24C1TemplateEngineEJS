@@ -1,0 +1,25 @@
+<%- include('./partials/head.ejs') %>
+    <%- include('./partials/header.ejs') %>
+        <header>
+            <a href="/">HOME</a>
+            <a href="/products">Productos</a>
+            <a href="/contacto">Contacto</a>
+        </header>
+        <h1>Mis productos</h1>
+        <h2>Listados de productos disponibles:</h2>
+        <section>
+            <% listadoDeProductos.forEach(producto => {  %>
+                <article>
+                    <img src="/images/<%= producto.imagen %> " alt="">
+                    <h4>
+                        <a href="/products/<%=producto.id %>">
+                            <%= producto.nombre %>
+                        </a>
+                    </h4>
+                    <p>
+                        <%= producto.precio %>
+                    </p>
+                </article>
+                <%  }) %>
+        </section>
+        <%- include ('./partials/footer.ejs')%>

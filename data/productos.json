@@ -1,0 +1,36 @@
+[{
+        "id": 1,
+        "nombre": "auriculares",
+        "precio": 100,
+        "descripcion": "esta es la descripcion",
+        "imagen": "auricular.jpg"
+    },
+    {
+        "id": 2,
+        "nombre": "lapicera",
+        "precio": 200,
+        "descripcion": "esta es la descripcion",
+        "imagen": "lapicera.jpg"
+    },
+    {
+        "id": 3,
+        "nombre": "termo",
+        "precio": 400,
+        "descripcion": "esta es la descripcion",
+        "imagen": "termo.jpg"
+    },
+    {
+        "id": 4,
+        "nombre": "telefono celular",
+        "precio": 300,
+        "descripcion": "esta es la descripcion",
+        "imagen": "telefono.jpg"
+    },
+    {
+        "id": 5,
+        "nombre": "television",
+        "precio": 300,
+        "descripcion": "esta es la descripcion",
+        "imagen": "television.jpg"
+    }
+]

@@ -1,0 +1,10 @@
+<%- include('./partials/head.ejs') %>
+    <%- include('./partials/header.ejs') %>
+
+        <% if (producto == undefined){ %>
+            <%= producto.nombre%>
+                <% }else{ %>
+                    <h1>No se encontraron productos</h1>
+                    <% } %>
+
+                        <%- include ('./partials/footer.ejs')%>
